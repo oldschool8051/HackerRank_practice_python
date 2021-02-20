@@ -1,0 +1,10 @@
+x=int(input())
+for i in range(x):
+    t=input()
+    if((len(t)==10) and (t.isdigit())):
+        if(t[0]=="7" or t[0]=="8" or t[0]=="9"):
+            print("YES")
+        else:
+            print("NO")
+    else:
+        print("NO")        
